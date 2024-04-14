@@ -1,0 +1,61 @@
+const int ledRojoUno = 6;
+const int ledAmarilloUno = 5;
+const int ledVerdeUno = 4;
+const int ledRojoDos = 9;
+const int ledAmarilloDos = 7;
+const int ledVerdeDos = 8;
+
+
+void setup() {
+  pinMode(ledRojoUno, OUTPUT);
+  pinMode(ledAmarilloUno, OUTPUT);
+  pinMode(ledVerdeUno, OUTPUT);
+  pinMode(ledRojoDos, OUTPUT);
+  pinMode(ledAmarilloDos, OUTPUT);
+  pinMode(ledVerdeDos, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(ledRojoUno, HIGH);
+  delay(100);
+  digitalWrite(ledVerdeDos, HIGH);
+  delay(5000);
+  digitalWrite(ledVerdeDos, LOW);
+
+  digitalWrite(ledAmarilloDos, HIGH);
+  delay(500);
+  digitalWrite(ledAmarilloDos, LOW);
+  delay(100);
+  digitalWrite(ledAmarilloDos, HIGH);
+  delay(500);
+  digitalWrite(ledAmarilloDos, LOW);
+  delay(100);
+  digitalWrite(ledAmarilloDos, HIGH);
+  delay(500);
+  digitalWrite(ledAmarilloDos, LOW);
+
+
+  digitalWrite(ledRojoDos, HIGH);
+  delay(100);
+  digitalWrite(ledRojoUno, LOW);
+
+  digitalWrite(ledVerdeUno, HIGH);
+  delay(5000);
+  digitalWrite(ledVerdeUno, LOW);
+
+  digitalWrite(ledAmarilloUno, HIGH);
+  delay(500);
+  digitalWrite(ledAmarilloUno, LOW);
+  delay(100);
+  digitalWrite(ledAmarilloUno, HIGH);
+  delay(500);
+  digitalWrite(ledAmarilloUno, LOW);
+  delay(100);
+  digitalWrite(ledAmarilloUno, HIGH);
+  delay(500);
+  digitalWrite(ledAmarilloUno, LOW);
+
+  digitalWrite(ledRojoUno, HIGH);
+  delay(100);
+  digitalWrite(ledRojoDos, LOW);
+}
